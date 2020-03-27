@@ -1,0 +1,28 @@
+* HDF5 compression filters
+
+Some tests and benchmarks on compression filters for HDF5.
+
+ArchLinux packages (PKGBUILD) are given below. For other systems, please refer to files and links therein.
+
+[[https://portal.hdfgroup.org/display/support/Registered+Filters][List]] of registered filters by the HDF5 group.
+
+** Filters
+
+*** JPEG-LS
+
+  - ID: 32012
+  - PKGBUILD: [[https://github.com/airwoodix/pkg-hdf5-jpegls-filter][hdf5-jpegls-filter]] (based on [[https://sourceforge.net/projects/jpegls-hdf-filter/][jpegls-hdf-filter]])
+
+*** BLOSC
+
+  - ID: 32001
+  - PKGBUILD: [[https://github.com/airwoodix/pkg-hdf5-blosc-filter][hdf5-blosc-filter]] (based on [[https://github.com/Blosc/hdf5-blosc][hdf5-blosc]])
+
+*** ZSTD
+
+  - ID: 32015
+  - PKGBUILD: [[https://github.com/airwoodix/pkg-hdf5-zstd-filter][hdf5-zstd-filter]] (based on [[https://github.com/aparamon/HDF5Plugin-Zstandard][HDF5Plugin-Zstandard]])
+
+* Use attributes for small datasets
+
+cf. [[https://github.com/m-labs/artiq/issues/1345][artiq#1345]]
