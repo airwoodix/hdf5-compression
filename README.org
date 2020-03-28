@@ -1,6 +1,12 @@
 * HDF5 compression filters
 
-Some tests and benchmarks on compression filters for HDF5.
+Quick benchmarks on compression filters for HDF5. Usage:
+
+#+BEGIN_SRC bash
+  python hdf5_compression.py
+#+END_SRC
+
+to avoid downloading the images again, use =-d= with the "Image source" path printed from a previous execution (without option =-c=). All options, use =--help=.
 
 ** Filters
 
