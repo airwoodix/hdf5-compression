@@ -2,11 +2,18 @@
 
 Some tests and benchmarks on compression filters for HDF5.
 
-ArchLinux packages (PKGBUILD) are given below. For other systems, please refer to files and links therein.
+** Filters
 
 [[https://portal.hdfgroup.org/display/support/Registered+Filters][List]] of registered filters by the HDF5 group.
 
-** Filters
+ArchLinux packages (PKGBUILD) are given below. For other systems, please refer to files and links therein.
+
+Download, build, and install HDF5 plugin (adjust =$name=, see below):
+#+BEGIN_SRC bash
+  name=pkg-hdf5-jpegls-filter
+  curl -L "https://github.com/airwoodix/${name}/archive/master.tar.gz" | tar zxf -
+  cd ${name} && sudo makepkg -sic
+#+END_SRC
 
 *** JPEG-LS
 
